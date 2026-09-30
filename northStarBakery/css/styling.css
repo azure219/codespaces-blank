@@ -130,3 +130,16 @@ footer {
    }
 
 }
+
+.error { 
+
+   display: block; 
+   color: #b00020; 
+   font-size: 0.9rem; 
+
+}
+
+.favorite-btn { 
+   margin-bottom: 1rem; 
+}
+
