@@ -52,6 +52,5 @@ form.addEventListener("submit", function (event) {
   if (!valid) {
 
     event.preventDefault();
-
   }
 });
