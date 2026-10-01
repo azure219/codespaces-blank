@@ -3,7 +3,7 @@ const form = document.querySelector("form");
 function showError(field, message) {
 
   let error = field.parentElement.querySelector(".error");
-
+  
   if (!error) {
 
     error = document.createElement("span");
@@ -52,6 +52,6 @@ form.addEventListener("submit", function (event) {
   if (!valid) {
 
     event.preventDefault();
-    
+
   }
 });
